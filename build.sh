@@ -75,7 +75,7 @@ function build_release() {
               $EMBEDDED_OPTS \
               --with-stream \
               --add-module=../../../ngx_dynamic_healthcheck \
-              --add-module=../ngx_dynamic_upstream > /dev/null
+              --add-module=../ngx_dynamic_upstream
 
   r=$?
   if [ $r -ne 0 ]; then
